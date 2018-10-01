@@ -1,1 +1,164 @@
-/* You can add global styles to this file, and also import other style files */
+.sprite {
+  background: url(./sprite.jpeg) no-repeat;
+  width: 162.6px;
+  height: 160.5px;
+  margin: 0 auto;
+}
+
+.frame1 { background-position: 0 0; }
+
+.frame2 { background-position: 25% 0; }
+
+.frame3 { background-position: 50% 0; }
+
+.frame4 { background-position: 75% 0; }
+
+.frame5 { background-position: 100% 0; }
+
+.frame6 { background-position: 0 100%; }
+
+.frame7 { background-position: 25% 100%; }
+
+.frame8 { background-position: 50% 100%; }
+
+.frame9 { background-position: 75% 100%; }
+
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+input {
+  height: 40px;
+  font-size: 18px;
+  border: 2px solid #4c75ce;
+  border-radius: 5px;
+}
+
+#palavra {
+  width: 350px;
+}
+
+label {
+  margin: 10px;
+}
+
+.page-header {
+  background: #4eaaf1;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.win-div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #6abf96;
+  border-radius: 5px;
+  color: white;
+}
+
+.game-content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.initital-div {
+  display: flex;
+  align-items: baseline;
+}
+
+.btn-start {
+  border: 3px solid #18c14a;
+  border-radius: 5px;
+  min-width: 100px;
+  margin: 10px;
+  background: transparent;
+  color: #18c14a;
+  height: 45px;
+  font-size: 15px;
+}
+
+.btn-start:hover {
+  background: #1be555;
+  color: white;
+}
+
+.btn-start:active {
+  background: #18c14a;
+  color: white;
+}
+
+.btn-win {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  min-width: 100px;
+  margin: 20px;
+  background: transparent;
+  color: #fff;
+  height: 45px;
+  font-size: 15px;
+}
+
+.btn-win:hover {
+  background: #71cb9f;
+  color: white;
+}
+
+.btn-win:active {
+  background: #18c14a;
+  color: white;
+}
+
+.letra {
+  border: 2px solid #545454;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  color: #18c14a;
+  text-align: center;
+  vertical-align: center;
+  font-size: 37px;
+}
+
+.letra-space {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.letras-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.lost {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  color: white;
+}
+
+.red {
+  background: #bf4134;
+}
